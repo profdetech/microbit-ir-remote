@@ -82,7 +82,7 @@ basic.forever(() => {
         pins.analogWritePin(AnalogPin.P0, br);
     } else {
         // Turn on for debugging or finding other codes
-        // basic.showNumber(n); 
+         basic.showNumber(n); 
     }
 })
 
